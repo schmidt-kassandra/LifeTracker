@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="edu.rose_hulman.lifetracker.MakeList"
+    android:orientation="vertical">
+
+    <LinearLayout android:id="@+id/titleView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_gravity="top">
+        <TextView android:id="@+id/listTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/list_title_text"/>
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/itemView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:layout_gravity="top">
+
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/newButtonView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_gravity="top">
+        <Button android:id="@+id/addItemButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_item_button_text"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
