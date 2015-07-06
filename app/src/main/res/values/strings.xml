@@ -8,6 +8,7 @@
     <string name="new_list_button_text">New List</string>
     <string name="list_title_text">New List</string>
     <string name="new_item_button_text">New Item</string>
+    <string name="new_item_title_text">New Item</string>
 
     <string name="attribute_name">Name</string>
     <string name="attribute_description">Description</string>

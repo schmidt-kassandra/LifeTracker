@@ -10,11 +10,16 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:orientation="horizontal"
-        android:layout_gravity="top">
-        <TextView android:id="@+id/listTitle"
+        android:layout_gravity="top|center_horizontal">
+        <EditText android:id="@+id/listTitle"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="@string/list_title_text"/>
+            android:background="@android:color/transparent"
+            android:hint="@string/list_title_text"
+            android:textSize="24sp"
+            android:layout_gravity="top|center_horizontal"
+            android:cursorVisible="false"
+            android:singleLine="true"/>
     </LinearLayout>
 
     <LinearLayout android:id="@+id/itemView"
@@ -31,14 +36,12 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:orientation="horizontal"
-        android:layout_gravity="top">
+        android:layout_gravity="top|center_horizontal">
         <Button android:id="@+id/addItemButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/new_item_button_text"/>
+            android:text="@string/new_item_button_text"
+            android:layout_gravity="bottom|center_horizontal"/>
     </LinearLayout>
-
-
-
 
 </LinearLayout>

@@ -2,9 +2,6 @@ package edu.rose_hulman.lifetracker;
 
 import java.util.HashMap;
 
-/**
- * Created by Billy York on 6/28/2015.
- */
 public class List {
 
     private HashMap<Attribute.AttributeType, Attribute> list = new HashMap<>();
@@ -25,6 +22,10 @@ public class List {
 
     public Attribute getByAttributeType(Attribute.AttributeType attributeType){
         return this.list.get(attributeType);
+    }
+
+    public HashMap<Attribute.AttributeType, Attribute> getListStorage(){
+        return this.list;
     }
 
 }
